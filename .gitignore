@@ -1,0 +1,152 @@
+# 编译输出目录
+*/target/
+*/build/
+*/out/
+bin/
+gen/
+binaries/
+
+# 字节码文件
+*.class
+
+# 打包文件
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# 日志文件
+*.log
+*.log.*
+logs/
+
+# 系统与临时文件
+*.lock
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+gradle-app.setting
+**/gradle-wrapper.jar
+**/gradle/wrapper/gradle-wrapper.jar
+**/build/
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Eclipse
+*.pydevproject
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.factorypath
+.buildpath
+.remoteSystemConnections
+.springBeans
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbm/
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# 测试覆盖率报告
+*.html
+*.css
+*.js
+coverage/
+.surefire/
+.idea/coverage/
+
+# 环境配置（可能包含本地敏感信息）
+.env
+*.local.*
+*.secret
+application-local.properties
+application-dev.properties
+secrets.yml
